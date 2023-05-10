@@ -1,0 +1,11 @@
+{
+    "Author": "Natalie",
+    "Name": "FinalRP",
+    "Punchline": "This is going to be a Plugin like the one from wow known as Total RP 3.",
+    "Description": "A description that shows up in /xlplugins. List any major slash-command(s).",
+    "InternalName": "FinalRP",
+    "ApplicableVersion": "any",
+    "Tags": [
+        "social"
+    ]
+}

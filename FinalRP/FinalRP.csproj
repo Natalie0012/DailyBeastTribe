@@ -4,9 +4,9 @@
     <Authors></Authors>
     <Company></Company>
     <Version>0.0.0.1</Version>
-    <Description>A sample plugin.</Description>
+    <Description>This is going to be a Plugin like the one from wow known as Total RP 3.</Description>
     <Copyright></Copyright>
-    <PackageProjectUrl>https://github.com/goatcorp/SamplePlugin</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Natalie0012/Final-RP</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup>
