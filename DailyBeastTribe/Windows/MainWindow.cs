@@ -1,15 +1,20 @@
 using System;
 using System.Numerics;
+using Dalamud.Data;
 using Dalamud.Interface.Windowing;
 using ImGuiNET;
 using ImGuiScene;
 
-namespace FinalRP.Windows;
+namespace DailyBeastTribe.Windows;
 
 public class MainWindow : Window, IDisposable
 {
     private TextureWrap goatImage;
     private Plugin plugin;
+    
+   
+
+
 
     public MainWindow(Plugin plugin, TextureWrap goatImage) : base(
         "My Amazing Window", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
@@ -20,8 +25,10 @@ public class MainWindow : Window, IDisposable
             MaximumSize = new Vector2(float.MaxValue, float.MaxValue)
         };
 
+        var tribalQuests = questSheet.Where(q => q.BeastTribe.Row != 0);
         this.goatImage = goatImage;
         this.plugin = plugin;
+       
     }
 
     public void Dispose()

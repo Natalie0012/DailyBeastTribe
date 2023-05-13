@@ -2,7 +2,7 @@ using Dalamud.Configuration;
 using Dalamud.Plugin;
 using System;
 
-namespace FinalRP
+namespace DailyBeastTribe
 {
     [Serializable]
     public class Configuration : IPluginConfiguration
